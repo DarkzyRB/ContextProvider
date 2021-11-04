@@ -10,5 +10,5 @@ internal object ContextProvider {
             return ctx
                 ?: throw IllegalStateException("App has not been initialized in Application class.")
         }
-        set(value: Context) { ctx = value }
+        set(value) { ctx = value }
 }
